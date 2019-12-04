@@ -24,8 +24,13 @@ Describe and show how to run the tests with code examples.
 
 ## Contributors
 
-Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
+- Yotam Shoval
+- Evgeni iseev
+- Ori Even-Chen
+- Idan Bardugo
+
+idanbar93@gmail.com
 
 ## License
 
-A short snippet describing the license (MIT, Apache, etc.)
+© Idan Bardugo, Holon Institute of Technology
