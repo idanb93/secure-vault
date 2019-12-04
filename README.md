@@ -41,7 +41,10 @@ Depending on the size of the project, if it is small and simple enough the refer
 - Ori Even-Chen
 - Idan Bardugo
 
-idanbar93@gmail.com
+##########################################################
+For information and help improving the app contact me on:#
+idanbar93@gmail.com                                      #
+##########################################################
 
 ## License
 
