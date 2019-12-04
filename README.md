@@ -8,11 +8,20 @@ Show what the library does as concisely as possible, developers should be able t
 
 ## Motivation
 
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
+As technology grows so does user demand for privacy. 
+Using multiple and different passwords helps us to keep our data safe, However,
+the difficulty of remembering the passwords keeps them unsecured on the device or alternatively on paper.
+
+This is where we came in the picture with an android application that stores user's passwords and information securely on the device.
 
 ## Installation
 
-Provide code examples and explanations of how to get the project.
+Download and install Android Studio.
+Open Android Studio.
+Click on File ----> New -----> Project from Version Control ----> Git.
+On the website of the repository click on "clone or download" and copy the link.
+On Android Studio on the "Clone Repository" window paste the link in the URL and create a new directory.
+Click on Clone.
 
 ## API Reference
 
@@ -20,7 +29,10 @@ Depending on the size of the project, if it is small and simple enough the refer
 
 ## Tests
 
-Describe and show how to run the tests with code examples.
+https://youtu.be/lae-VeC_U14
+https://youtu.be/Wz_grlakhpc
+https://youtu.be/9rYXj7sjQHY
+https://youtu.be/TrWC3oHKn9A
 
 ## Contributors
 
