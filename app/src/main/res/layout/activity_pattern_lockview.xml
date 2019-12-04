@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/new_back">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5.5"
+        android:orientation="vertical"
+        android:gravity="center_horizontal|bottom">
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:layout_gravity="center"
+            android:padding="20dp"
+            android:src="@drawable/logo"
+            android:contentDescription="@string/logo"/>
+
+        <TextView
+            android:id="@+id/patternTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Pattern"
+            android:textColor="#fff"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+
+    <android:com.andrognito.patternlockview.PatternLockView
+        android:id="@+id/patternView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:layout_gravity="center"
+        correctStateColor="@color/colorCorrectLine"
+        normalStateColor="@color/colorNormalLine"
+        wrongStateColor="@color/colorWrongLine"
+
+        layout_height="wrap_content"
+        layout_width="wrap_content" />
+
+
+</LinearLayout>

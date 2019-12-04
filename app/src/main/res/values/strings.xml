@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">Secure Vault 2019</string>
+    <string name="sign_in">Sign In</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="create_vault">Create your own SECURE VAULT account</string>
+    <string name="add_record">+ Add Record</string>
+    <string name="forgot_pass">Forgot Password</string>
+    <string name="category">Category</string>
+    <string name="title">Title</string>
+    <string name="email">Email</string>
+    <string name="other">Other</string>
+    <string name="website">Website</string>
+    <string name="description">Description</string>
+    <string name="save">save</string>
+    <string name="update">Update</string>
+    <string name="add">Add</string>
+    <string name="ok">OK</string>
+    <string name="expiringDate">Expiring Date</string>
+    <string name="lastModified">Last Modified</string>
+    <string name="date_created">Date Created</string>
+    <string name="note">Note</string>
+    <string name="custom1">custom1</string>
+    <string name="custom2">custom2</string>
+    <string name="custom3">custom3</string>
+    <string name="addFields">+ Add Field</string>
+    <string name="newRecord">New Record</string>
+    <string name="cancel">Cancel</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="later">Later</string>
+    <string name="delete">Delete</string>
+    <string name="cancelation_request">Cancelation Request</string>
+    <string name="cancelation_message">You have unsaved changes. Do you wish to continue?</string>
+    <string name="bankAccounts">Bank Accounts</string>
+    <string name="creditCards">Credit Cards</string>
+    <string name="socialMedia">Social Media</string>
+    <string name="webAccounts">Web Accounts</string>
+    <string name="onlineShopping">Online Shopping</string>
+    <string name="cryptocurrency">Cryptocurrency</string>
+    <string name="drivingLicence">Driving Licence</string>
+    <string name="passports">Passports</string>
+    <string name="customized">Customized</string>
+    <string name="notes">Notes</string>
+    <string name="mmddyyyy">month/day/year</string>
+    <string name="addNote">+ Add Note</string>
+    <string name="addExpiringDate">+ Record\'s Expiring Date</string>
+    <string name="search">Search</string>
+    <string name="logo">Logo</string>
+    <string name="go">GO</string>
+    <string name="chooseIcon">Choose Icon</string>
+    <string name="tagNames">Tags</string>
+    <string name="tagNamesHint">Tag Names: work, school, parents</string>
+    <string name="typeOfRecord">Type of record</string>
+    <string name="accountNumber">Account Number</string>
+    <string name="iban">IBAN (International Bank Account Number)</string>
+    <string name="bankNumber">Bank Number</string>
+    <string name="bankAddress">Bank Address</string>
+    <string name="cardNumber">Card Number</string>
+    <string name="cvv">CVV</string>
+    <string name="expireYear">Year</string>
+    <string name="expireMonth">Month</string>
+    <string name="cardExpiringDate">Credit Card Expiring Date</string>
+    <string name="discard">Discard</string>
+    <string name="publicKey">Public Key</string>
+    <string name="privateKey">Private Key</string>
+    <string name="walletGenerationSeed">nav_title</string>
+    <string name="licenceNumber">Licence Number</string>
+    <string name="licenceExpiringDate">Licence Expiring Date</string>
+    <string name="webAccountsAndEmail"><![CDATA[Website & Email]]></string>
+    <string name="passportNumber">Passport Number</string>
+    <string name="issuanceDate">Issuance Date</string>
+    <string name="issuancePlace">Issuance Place</string>
+    <string name="addChooseIcon">+ Choose Icon</string>
+    <string name="folder">Folder</string>
+    <string name="showAll">Show All</string>
+    <string name="allRecords">All Records</string>
+    <string name="security_level">Security Level</string>
+    <string name="Pattern">Please enter your Pattern</string>
+    <string name="FirstName">First Name</string>
+    <string name="LastName">Last Name</string>
+    <string name="Question">Optional Question</string>
+    <string name="Answer">Optional Answer </string>
+    <string name="dateOfBirth">Date of Birth</string>
+    <string name="enterPatternAgain">Plese enter your Pattern again</string>
+    <string name="myProfile">My profile</string>
+    <string-array name="typesOfRecord">
+        <item><![CDATA[Website & Email]]></item>
+        <item>Social Media</item>
+        <item>Online Shopping</item>
+        <item>Bank Accounts</item>
+        <item>Credit Cards</item>
+        <item>Passports</item>
+        <item>Cryptocurrency</item>
+        <item>Driving Licence</item>
+        <item>Notes</item>
+    </string-array>
+    <string name="newAccount">New Account</string>
+    <string name="verifyPass">Verify Password</string>
+    <string name="masterPass">Master Password</string>
+    <string name="ori">Ori Even Chen</string>
+    <string name="yotam">Yotam Shoval</string>
+    <string name="evgeni">Evgeni Iseev</string>
+    <string name="idan">Idan Bardugo</string>
+    <string name="project_team">Project Team</string>
+    <string name="delete_request">Delete request</string>
+    <string name="delete_message">Are you sure you want to delete permanently?</string>
+    <string name="about">About</string>
+    <string name="log_out">Log out</string>
+    <string name="account">Account</string>
+    <string name="settings">Settings</string>
+    <string name="profile">Profile</string>
+    <string name="save_record">Save Record</string>
+    <string name="fetch_data">Fetch Data</string>
+    <string name="no_result_message">Search is working for exact title</string>
+    <string name="navigation_drawer_open">navigation drawer open</string>
+    <string name="navigation_drawer_close">navigation drawer close</string>
+    <string name="welcome">Welcome</string>
+    <string name="secure_level_1">Secure level 1</string>
+    <string name="secure_level_2">Secure level 2</string>
+    <string name="secure_level_3">Secure level 3</string>
+
+
+</resources>

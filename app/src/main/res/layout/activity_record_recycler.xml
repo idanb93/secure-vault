@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="view.records.RecordRecycler_Activity">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/button_add_record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_add"
+        app:fabSize="normal"
+        app:backgroundTint="@color/back_secondColor"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/new_back"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/menu_icon"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="14dp"
+                    android:background="@drawable/ic_back_white"
+                    android:onClick="back" />
+
+                <Button
+                    android:id="@+id/options_icon"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginEnd="14dp"
+                    android:background="@drawable/ic_more_vert_white"
+                    android:visibility="gone" />
+            </RelativeLayout>
+            <!--menu and search buttons-->
+
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_above="@id/activityTitle"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/logo"
+                android:contentDescription="@string/logo"/>
+
+            <TextView
+                android:id="@+id/activityTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="4dp"
+                android:gravity="center"
+                android:text="@string/category"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+
+
+        </RelativeLayout>
+        <!--Header-->
+
+
+        <RelativeLayout
+            android:id="@+id/search_layout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="2dp"
+            android:paddingStart="6dp"
+            android:paddingEnd="6dp"
+            android:visibility="gone">
+
+            <EditText
+                android:id="@+id/search_bar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="6dp"
+                android:background="@drawable/search_edittext_style"
+                android:ellipsize="start"
+                android:hint="@string/search"
+                android:paddingStart="22dp"
+                android:paddingEnd="120dp"
+                android:singleLine="true"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#66FFFFFF"
+                android:inputType="text"/>
+
+
+            <ImageView
+                android:id="@+id/clearSearch"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_clear_white"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="80dp"
+                android:layout_marginTop="8dp"
+                android:onClick="clearSearch"
+                android:visibility="visible"/>
+
+            <ImageButton
+                android:id="@+id/search_btn"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="12dp"
+                android:background="@drawable/btn_style"
+                android:onClick="search"
+                android:src="@drawable/ic_arrow_right_white"/>
+
+        </RelativeLayout>
+        <!--Search-->
+
+
+        <TextView
+            android:id="@+id/no_result_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="@string/no_result_message"
+            android:textColor="#CCFFFFFF"
+            android:layout_gravity="center_horizontal"
+            android:visibility="gone"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            tools:listitem="@layout/record_item">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </LinearLayout>
+    <!--        android:onClick="editForm"-->
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
