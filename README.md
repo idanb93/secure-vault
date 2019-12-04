@@ -29,10 +29,10 @@ Depending on the size of the project, if it is small and simple enough the refer
 
 ## Tests
 
-https://youtu.be/lae-VeC_U14
-https://youtu.be/Wz_grlakhpc
-https://youtu.be/9rYXj7sjQHY
-https://youtu.be/TrWC3oHKn9A
+- https://youtu.be/lae-VeC_U14
+- https://youtu.be/Wz_grlakhpc
+- https://youtu.be/9rYXj7sjQHY
+- https://youtu.be/TrWC3oHKn9A
 
 ## Contributors
 
