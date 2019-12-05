@@ -14,7 +14,7 @@ the difficulty of remembering the passwords keeps them unsecured on the device o
 
 This is where we came in the picture with an android application that stores user's passwords and information securely on the device.
 
-## Installation
+## Installation and Usage
 
 Download and install Android Studio.
 Open Android Studio.
