@@ -23,6 +23,10 @@ On the website of the repository click on "clone or download" and copy the link.
 On Android Studio on the "Clone Repository" window paste the link in the URL and create a new directory.
 Click on Clone.
 
+<img src="images/Screenshot_20191202-002715.jpg" width = 220 height = 480/> <span> <img src="images/Screenshot_20191202-003009.jpg" width = 220 height = 480/> </span>
+<img src="images/Screenshot_20191202-003244.jpg" width = 220 height = 480/> <span> <img src="images/Screenshot_20191202-010135.jpg" width = 220 height = 480/> <img src="images/Screenshot_20191202-003337.jpg" width = 220 height = 480/> </span>
+
+
 ## API Reference
 
 Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
@@ -37,7 +41,7 @@ Depending on the size of the project, if it is small and simple enough the refer
 ## Contributors
 
 - Yotam Shoval
-- Evgeni iseev
+- Evgeni Iseev
 - Ori Even-Chen
 - Idan Bardugo
 
