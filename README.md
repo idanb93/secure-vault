@@ -4,19 +4,55 @@ Secure Vault is an android application that stores users passwords and informati
 
 ## Goals
 
-Provide a secure user password storage platform.
+Provide secure user password and information storage platform.
 
 ## Motivation
 
 As technology grows so does user demand for privacy. 
 Using multiple and different passwords helps us to keep our data safe, However,
-the difficulty of remembering the passwords keeps them unsecured on the device or alternatively on paper.
-
+the difficulty of remembering the passwords often keeps them unsecured on the device or alternatively on paper.
 This is where we came in the picture with an android application that stores user's passwords and information securely on the device.
 
 ## Code Example
 
-Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
+    public String encryptWithKey(String Key, String stringToEncrypt) throws Exception {
+        SecretKeySpec key = generateKey(Key);
+        Cipher c = Cipher.getInstance(getAES());
+        c.init(Cipher.ENCRYPT_MODE, key);
+        byte[] encVal = c.doFinal(stringToEncrypt.getBytes());
+        String encryptedValue = Base64.encodeToString(encVal, Base64.DEFAULT);
+        return encryptedValue;
+    }
+
+    public String encrypt(String stringToEncrypt) throws Exception {
+        SecretKeySpec key = generateKey(stringToEncrypt);
+        Cipher c = Cipher.getInstance(getAES());
+        c.init(Cipher.ENCRYPT_MODE, key);
+        byte[] encVal = c.doFinal(stringToEncrypt.getBytes());
+        String encryptedValue = Base64.encodeToString(encVal, Base64.DEFAULT);
+        return encryptedValue;
+    }
+
+    public String decrypt(String encryptedString, String Key) throws Exception {
+        SecretKeySpec key = generateKey(Key);
+        Cipher c = Cipher.getInstance(getAES());
+        c.init(Cipher.DECRYPT_MODE, key);
+        byte[] decodeValue = Base64.decode(encryptedString, Base64.DEFAULT);
+        byte[] decValue = c.doFinal(decodeValue);
+        String decryptedValue = new String(decValue);
+        return decryptedValue;
+    }
+
+    public SecretKeySpec generateKey(String Key) throws Exception {
+        final MessageDigest digest = MessageDigest.getInstance("SHA-256");
+        byte[] bytes = Key.getBytes("UTF-8");
+        digest.update(bytes, 0, bytes.length);
+        byte[] key = digest.digest();
+        SecretKeySpec secretKeySpec = new SecretKeySpec(key, "AES");
+        return secretKeySpec;
+    }
+
+<img src="images/data_saved_encrpyted.jpg" width = 1200 height = 480/>
 
 ## Install
 
@@ -32,13 +68,8 @@ Click on Clone.
 <img src="images/Screenshot_20191202-002715.jpg" width = 220 height = 480/> <span> <img src="images/Screenshot_20191202-003009.jpg" width = 220 height = 480/> </span>
 <img src="images/Screenshot_20191202-003244.jpg" width = 220 height = 480/> <span> <img src="images/Screenshot_20191202-010135.jpg" width = 220 height = 480/> <img src="images/Screenshot_20191202-003337.jpg" width = 220 height = 480/> </span>
 
-
-## API Reference
-
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
-
 ## Tests
-
+- https://youtu.be/aiUE0lkhenY
 - https://youtu.be/lae-VeC_U14
 - https://youtu.be/Wz_grlakhpc
 - https://youtu.be/9rYXj7sjQHY
