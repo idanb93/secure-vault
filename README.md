@@ -65,11 +65,12 @@ Click on Clone.
 
 ## Usage
 
+- https://youtu.be/aiUE0lkhenY
+
 <img src="images/Screenshot_20191202-002715.jpg" width = 220 height = 480/> <span> <img src="images/Screenshot_20191202-003009.jpg" width = 220 height = 480/> </span>
 <img src="images/Screenshot_20191202-003244.jpg" width = 220 height = 480/> <span> <img src="images/Screenshot_20191202-010135.jpg" width = 220 height = 480/> <img src="images/Screenshot_20191202-003337.jpg" width = 220 height = 480/> </span>
 
 ## Tests
-- https://youtu.be/aiUE0lkhenY
 - https://youtu.be/lae-VeC_U14
 - https://youtu.be/Wz_grlakhpc
 - https://youtu.be/9rYXj7sjQHY
