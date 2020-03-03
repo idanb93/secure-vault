@@ -2,6 +2,9 @@
 
 Secure Vault is an android application that stores users passwords and information securely.
 
+<img src="images/Screenshot_20191202-002715.jpg" width = 220 height = 480/> <span> <img src="images/Screenshot_20191202-003009.jpg" width = 220 height = 480/> </span>
+<img src="images/Screenshot_20191202-003244.jpg" width = 220 height = 480/> <span> <img src="images/Screenshot_20191202-010135.jpg" width = 220 height = 480/> <img src="images/Screenshot_20191202-003337.jpg" width = 220 height = 480/> </span>
+
 ## Goals
 
 Provide secure user password and information storage platform.
@@ -67,9 +70,6 @@ Click on Clone.
 
 - https://youtu.be/aiUE0lkhenY
 
-<img src="images/Screenshot_20191202-002715.jpg" width = 220 height = 480/> <span> <img src="images/Screenshot_20191202-003009.jpg" width = 220 height = 480/> </span>
-<img src="images/Screenshot_20191202-003244.jpg" width = 220 height = 480/> <span> <img src="images/Screenshot_20191202-010135.jpg" width = 220 height = 480/> <img src="images/Screenshot_20191202-003337.jpg" width = 220 height = 480/> </span>
-
 ## Tests
 - https://youtu.be/lae-VeC_U14
 - https://youtu.be/Wz_grlakhpc
@@ -83,7 +83,7 @@ Click on Clone.
 - Ori Even-Chen
 - Idan Bardugo
 
-For information and help improving the app contact me on:
+For information on the app contact me on:
 idanbar93@gmail.com
 
 ## License
