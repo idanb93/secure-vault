@@ -7,7 +7,7 @@ Secure Vault is an android application that stores users passwords and informati
 
 ## Goals
 
-Provide secure user password and information storage platform.
+Provide a secure storage platform for passwords and information.
 
 ## Motivation
 
