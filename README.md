@@ -57,15 +57,6 @@ This is where we came in the picture with an android application that stores use
 
 <img src="images/data_saved_encrpyted.jpg" width = 1200 height = 480/>
 
-## Install
-
-Download and install Android Studio.
-Open Android Studio.
-Click on File ----> New -----> Project from Version Control ----> Git.
-On the website of the repository click on "clone or download" and copy the link.
-On Android Studio on the "Clone Repository" window paste the link in the URL and create a new directory.
-Click on Clone.
-
 ## Usage
 
 - https://youtu.be/aiUE0lkhenY
